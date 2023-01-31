@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InnerPage</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <link rel="stylesheet" href="try.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="topnavbar">
+        <div class="topleftnavbar">
+            <img src="images/menu-bar.svg" class="menudesign" width="30px" height="24px">
+            <img src="images/header-logo.svg" class="logo" width="142px" height="30px">
+            <img src="images//search-icon.svg" class="searchicon">
+            <input type="text" id="exampleInputEmail1" aria-describedby="emailHelp"
+                placeholder="Search" class="search-control">
+
+
+        </div>
+        <div class="toprightnavbar">
+            <img src="images/notification-icon.svg" class="notification">
+            <img src="images/profile.png" class="profile">
+            <select class="dropdesign">
+                <option value="John Doe">John Doe</option>
+            </select>
+
+        </div>
+    </div>
+    
+    <div class="content">
+
+        <div class="sidebar show-sidebar">
+        <div class="eachsidemenu"><a href="dashboard.html" class="link">
+                <div style="padding:15px;margin-left: 30px;margin-right:30px;display: flex;"><img
+                        src="images/dashboard-default.svg" width="16px" height="16px" class="side-icon"><span
+                        style="margin-left: 12px;" class="sideIcon-text">Dashboard</span></div>
+            </a></div>
+        <div class="eachsidemenu" style="padding-top:17px;background-color:#FFF3F4;padding:15px;"><a href="#" class="link">
+                <div style="display: flex;"><img src="images/graph-active.svg" width="16px" height="16px"
+                        style="margin-left: 30px;" class="side-icon"><span style="margin-left: 12px;color:#C8242F;" class="sideIcon-text">Analysis</span></div>
+            </a></div>
+        <div class="eachsidemenu"  style="padding-top: 20px;"><a href="#" class="link">
+                <div style="display: flex;"><img src="images/inbox-default.svg" width="16px" height="16px"
+                        style="margin-left: 47px;" class="side-icon"><span style="margin-left: 12px;" class="sideIcon-text">Inbox</span></div>
+            </a></div>
+        <div class="eachsidemenu"><a href="#" class="link">
+                <div style="display: flex;"><img src="images/clock-default.svg" width="16px" height="16px"
+                        style="margin-left: 47px;" class="side-icon"><span style="margin-left: 12px;" class="sideIcon-text">History</span></div>
+            </a></div>
+        <div class="eachsidemenu"><a href="#" class="link">
+                <div style="display: flex;"><img src="images//user-default.svg" width="16px" height="16px"
+                        style="margin-left: 47px;" class="side-icon"><span style="margin-left: 12px;" class="sideIcon-text">Users</span></div>
+            </a></div>
+        <div class="eachsidemenu"><a href="#" class="link">
+                <div style="display: flex;"><img src="images/maintenance-default.svg" width="16px" height="16px"
+                        style="margin-left: 47px;" class="side-icon"><span style="margin-left: 12px;" class="sideIcon-text">Maintenance</span></div>
+            </a></div>
+        <div class="eachsidemenu"><a href="#" class="link">
+                <div style="display: flex;"><img src="images/setting-default.svg" width="16px" height="16px"
+                        style="margin-left: 47px;" class="side-icon"><span style="margin-left: 12px;" class="sideIcon-text">Setting</span></div>
+            </a></div>
+        </div>
+
+
+        <div class="analysis">
+            <div class="headingtxt">
+            <p>Analysis</p>
+            </div>
+            <div class="maincontent">
+
+                <div class="part1">
+                <div class="p1">
+                    <p style="margin-bottom: 0%;">One Column</p>
+                </div>  
+                <div class="p2">  
+                    <input type="text" id="input1" class="form-control" placeholder="Name">
+                    <select id="select1" class="form-select" placeholder="Dropdown"><option selected>Dropdown</option></select>  
+                    <textarea class="form-control" placeholder="Multiiple Lines" id="textarea1" style="height: 100px"></textarea>             
+                </div>
+                </div>
+
+                <div class="part2">
+                    <p style="margin-bottom: 0%;" class="part2-text">Two Column</p>
+                    <div class="p21">  
+                        <input type="text" id="inputname" class="form-control" placeholder="Name">
+                        <input type="text" id="inputuser" class="form-control" placeholder="jhondoe">
+                    </div>
+                    <div class="p22">  
+                        <input type="password" id="inputpass" class="form-control" placeholder="password">
+                        <select id="inputselect" class="form-select" placeholder="Dropdown"><option selected>Dropdown</option></select>
+                    </div>
+                </div>
+
+                <div class="part3">
+                    <p style="margin-bottom: 0%;">Three Column</p>
+                    <div class="p31">  
+                        <input type="text" id="inputname3" class="form-control" placeholder="Name">
+                        <input type="password" id="inputpass3" class="form-control" placeholder="password">
+                        <input class="form-control" id="inputdisable3" type="text" placeholder="jhondoe">
+                    </div>
+                </div>
+
+                <div class="part4">
+                    <p style="margin-bottom: 0%;">Four Column</p>
+                    <div class="p41">  
+                        <input type="text" class="form-control is-invalid" id="validdesignation4" placeholder="UI Designer" aria-describedby="validationServer03Feedback" required>
+                        <input type="text" class="form-control is-invalid" id="validinput4" placeholder="Name" aria-describedby="validationServer03Feedback" required>
+                        <input class="form-control" id="input4" type="text" placeholder="jhondoe">
+                        <select id="inputselect4" class="form-select" placeholder="Dropdown"><option selected>Select</option></select>
+                    </div>
+                </div>
+
+                <div class="part5">
+                    <p style="margin-bottom: 0%;">Other Design Elements</p>
+                    <div class="file">
+                        <p style="margin-bottom: 0%;">File Upload</p>
+                        <div class="uploadcontent">
+                        <div class="upload">
+                            <img src="images/cloud-upload-icon.svg"><p style="margin-bottom: 0%;">upload</p>
+                        </div>
+                        <div class="uploadtxt">
+                            <p id="uptxt" style="margin-bottom: 0%;">No item Selected</p>
+                        </div>     
+                        </div>
+                    </div>
+
+                    <div class="radio">
+                        <p style="margin-bottom: 0%;">Radio Button</p>
+                        <div class="rbtn">
+                            <div class="c1">
+                                <input type="radio" id="opt1" name="option1" value="opt1">
+                                <label for="opt1">Option 1</label>
+                            </div>
+                            <div class="c2">
+                                <input type="radio" id="opt2" name="option2" value="opt2" checked>
+                                <label for="opt2">Option 2</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="checkbox">
+                        <p style="margin-bottom: 0;">Checkbox</p>
+                        <div class="check">
+                            <div class="chk1">
+                                <input type="checkbox" id="chk1" name="check1" value="chk1">
+                                <label for="chk1">Option 1</label>
+                            </div>
+                            <div class="chk2">
+                                <input type="checkbox" id="chk2" name="check2" value="chk2" checked>
+                                <label for="chk2">Option 2</label>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="snackbar">
+                        <p style="margin-bottom: 0%;">Snackbar</p>
+                        <div class="tab1">
+                            <div class="t1">
+                                <p id="tp1" style="margin-bottom: 0%;">This is an error Message</p>
+                            </div>
+                            <div class="t2">
+                                <p id="tp2" style="margin-bottom: 0%;">This is an information message</p>
+                            </div>
+                        </div>
+                        <div class="tab2">
+                            <div class="t11">
+                                <p id="tp11" style="margin-bottom: 0%;">This is a warning message</p>
+                            </div>
+                            <div class="t22">
+                                <p id="tp22" style="margin-bottom: 0%;">This is a success message</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="callaction">
+                        <p style="margin-bottom: 0%;">Call to action</p>
+                        <div class="callbtn">
+                            <button id="btn1" type="button" class="btn btn-danger">Primary</button>
+                            <button id="btn2" type="button" class="btn btn-danger">Secondary</button>
+                        </div>
+                    </div>
+
+                    <div class="tabs">
+                        <p style="margin-bottom: 0%;">Tabs</p>
+                        <div class="tabgroup">
+                            <p id="tabg1" style="margin-bottom: 0%;">Tab 1</p>
+                            <p id="tabg2" style="margin-bottom: 0%;">Tab 2</p>
+                            <p id="tabg2" style="margin-bottom: 0%;">Tab 3</p>
+                        </div>
+                        <div class="line"></div>
+                        <div class="Lorem">
+                            <p id="Ltxt" style="margin-bottom: 0%;">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+    </div> 
+    
+    
+
+
+
+
+
+
+
+
+    
+    
+    <script src="js/inner.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+</body>
+</html>
